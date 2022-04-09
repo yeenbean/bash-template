@@ -1,6 +1,6 @@
-# bash-starter
+# bash-template
 
-[![](https://img.shields.io/github/last-commit/hashdang/bash-starter.svg?logo=github&logoColor=white)](https://github.com/hashdang/bash-starter/commits/master) [![](https://img.shields.io/codeclimate/issues/hashdang/bash-starter.svg)](https://github.com/hashdang/bash-starter/issues) [![](https://img.shields.io/github/forks/hashdang/bash-starter.svg?style=social)](https://github.com/hashdang/bash-starter/fork)
+[![](https://img.shields.io/github/last-commit/yeenbean/bash-template.svg?logo=github&logoColor=white)](https://github.com/yeenbean/bash-template/commits/master) [![](https://img.shields.io/codeclimate/issues/yeenbean/bash-template.svg)](https://github.com/yeenbean/bash-template/issues) [![](https://img.shields.io/github/forks/yeenbean/bash-template.svg?style=social)](https://github.com/yeenbean/bash-template/fork)
 
 A simple starting place for new Bash scripts. This script:
 
