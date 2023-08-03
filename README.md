@@ -1,6 +1,10 @@
 # bash-template
 
-[![](https://img.shields.io/github/last-commit/yeenbean/bash-template.svg?logo=github&logoColor=white)](https://github.com/yeenbean/bash-template/commits/master) [![](https://img.shields.io/codeclimate/issues/yeenbean/bash-template.svg)](https://github.com/yeenbean/bash-template/issues) [![](https://img.shields.io/github/forks/yeenbean/bash-template.svg?style=social)](https://github.com/yeenbean/bash-template/fork)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/yeenbean/bash-template/master?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/yeenbean/bash-template?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/yeenbean/bash-template?style=for-the-badge)
+
+
 
 A simple starting place for new Bash scripts. This script:
 
