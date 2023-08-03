@@ -4,10 +4,31 @@
 
 A simple starting place for new Bash scripts. This script:
 
-- uses `/usr/bin/env bash` for portability
-- uses the unofficial
-[Bash Strict Mode](http://redsymbol.net/articles/unofficial-bash-strict-mode/)
-- checks that bash 4 is executing the script
+- Uses `/usr/bin/env bash` for portability.
+- Uses the unofficial
+[Bash Strict Mode](http://redsymbol.net/articles/unofficial-bash-strict-mode/).
+- Checks that bash 4 is executing the script.
+
+## Usage
+
+### Option 1: clone this repository as a template
+
+The easiest way to get started is by clicking the green **Use this template**
+button, then selecting **Create a new repository**. You will then be guided
+through creating a new repository in your account that uses the files in this
+repository as a template!
+
+### Option 2: Visual Studio Code snippet
+
+Open the user snippets file called "shellscript.json" and add the following:
+
+```json
+"Bash Strict Mode Starter": {
+  "prefix": "starter",
+  "body": ["#!/usr/bin/env bash","#","# Short description goes here. Maximum 3 sentences. If possible, keep each line","# under 80 characters for easy readability.","","","init() {","  set -euo pipefail # strict mode","  #set -x            # uncomment when debugging your script","  IFS=$'\\n\\t'       # IFS restricted to newline and tab","}","","","main() {","  init # run init function","  echo success","}","","","# make sure bash 4 is being used and run the script, exit otherwise","# this prevents people from running the script with an unsupported interpreter","if [ -z \"${BASH_VERSINFO}\" ] || [ -z \"${BASH_VERSINFO[0]}\" ] || [ ${BASH_VERSINFO[0]} -lt 4 ]","then","  echo \"This script requires Bash version 4 or newer.\"","  exit 1","else","  main","fi"],
+  "description": "A starter script for a Bash shell script."
+}
+```
 
 ## Issues
 
